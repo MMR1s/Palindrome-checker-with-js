@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(67, 67, 67);
+    position: relative;
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    border: 3px solid darkblue;
+    border-radius: 5% 45%;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px darkblue;
+    color: black;
+    position: absolute;
+    top: 7%;
+    left: 38.5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+#main {
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px darkblue;
+    border-radius: 10%;
+    padding: 40px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 3px darkblue;
+}
+
+#Result-zone {
+    display: flex;
+    flex-direction: row;
+}
+
+#text-input {
+    border: 0px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    padding: 5%;
+    margin-right: 10px;
+    padding-left: 30%;
+    color: white;
+}
+
+#check-btn {
+    padding: 5%;
+    border-radius: 20%;
+    color: white;
+    background-color: darkblue;
+    padding: 0 8%;
+    text-align: center;
+}
+
+#check-btn:hover {
+    background-color: rgb(12, 12, 255);
+}
+
+#result {
+    position: absolute;
+    top: 130%;
+    left: 24%;
+    font-size: 3rem;
+}
